@@ -1,10 +1,10 @@
-# SCROLLTOANIMATE
+# LIVELOADER
   A simple jquery for page preloader.
   
 ## Features
   - Light weight font icon.
-  - Multiple Custom option. 
-  - Display you own image.
+  - Multiple Custom options. 
+  - Display you own image as loader.
   - Easy to use.  
 
 ## Installation
