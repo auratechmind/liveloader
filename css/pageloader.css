@@ -30,7 +30,8 @@ padding:20px;
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
-    display: table; }
+    display: table; 
+	text-align:center;}
     #pageloader #loadercontent i {
       vertical-align: middle;
       display: table-cell; }
