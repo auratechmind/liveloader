@@ -29,19 +29,19 @@
                 return this.each(function() {
                     $(this).css('border-top', bordercolor);
                     $(this).css('background-color', settings.bgcolor);
-                    $(this).find("#loadercontent").prepend("<i class='fa fa-fw'></i>")
+                    $(this).find("#loadercontent").prepend("<i class='fa'></i>")
                     $(this).find("i").addClass(fafont).addClass(faeffect).addClass('animated').addClass(faspeed).addClass(settings.fasize);
                     $(this).find("i").css('color', settings.color);                   
                 });
             }
 
         }    
+		$(window).load(function() { // makes sure the whole site is loaded
+			$('#loadercontent').fadeOut(); // will first fade out the loading animation
+			$('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({
+				'overflow': 'visible'
+			});    
+		});
 }(jQuery));
 
-$(window).load(function() { // makes sure the whole site is loaded
-    $('#loadercontent').fadeOut(); // will first fade out the loading animation
-    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(350).css({
-        'overflow': 'visible'
-    });    
-});
