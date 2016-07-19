@@ -59,5 +59,5 @@ http://auratechmind.net/question/category/liveloader/
 
 ## Credit
 http://fontawesome.io/
-
+http://l-lin.github.io/font-awesome-animation/
 
