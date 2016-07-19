@@ -52,12 +52,12 @@
 
 
 ## Demo
-http://plugins.auratechmind.net/scrolltoanimate
+http://plugins.auratechmind.net/liveloader/
 
 ## Discussion
-http://auratechmind.net/question/category/scrolltoanimate
+http://auratechmind.net/question/category/liveloader/
 
 ## Credit
-https://daneden.github.io/animate.css/
+http://fontawesome.io/
 
 
