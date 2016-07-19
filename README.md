@@ -4,7 +4,7 @@
 ## Features
   - Light weight font icon.
   - Multiple Custom options. 
-  - Display you own image as loader.
+  - Display your own image as loader.
   - Easy to use.  
 
 ## Installation
