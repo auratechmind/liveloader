@@ -29,7 +29,7 @@
                 return this.each(function() {
                     $(this).css('border-top', bordercolor);
                     $(this).css('background-color', settings.bgcolor);
-                    $(this).find("#loadercontent").prepend("<i class='fa fa-fw'></i>")
+                    $(this).find("#loadercontent").prepend("<i class='fa'></i>")
                     $(this).find("i").addClass(fafont).addClass(faeffect).addClass('animated').addClass(faspeed).addClass(settings.fasize);
                     $(this).find("i").css('color', settings.color);                   
                 });
